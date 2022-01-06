@@ -1,9 +1,8 @@
 package lab12.entities;
 
 public class Project {
-    
-    private String name;
-    private int workers;
+    private final String name;
+    private final int workers;
 
     public Project(String name, int workers) {
         this.name = name;

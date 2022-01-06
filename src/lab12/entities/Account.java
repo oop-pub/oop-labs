@@ -5,9 +5,9 @@ import lab12.exceptions.NotEnoughFundsException;
 import java.util.Objects;
 
 public class Account {
-    private int id;
+    private final int id;
 	private double balance;
-	private double maximumAmountToWithdraw;
+	private final double maximumAmountToWithdraw;
     
     public Account(int id, double balance, double maximumAmountToWithdraw) {
 		this.id = id;

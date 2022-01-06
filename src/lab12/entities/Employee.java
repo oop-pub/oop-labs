@@ -3,14 +3,14 @@ package lab12.entities;
 import java.util.*;
 
 public class Employee {
-    private String name;
-    private Integer age;
-    private String city;
+    private final String name;
+    private final Integer age;
+    private final String city;
     private Gender gender;
     private Disability disability;
     private Religion religion;
-    private Set<Account> accounts = new HashSet<>();
-    private List<Project> projects = new ArrayList<>();
+    private final Set<Account> accounts = new HashSet<>();
+    private final List<Project> projects = new ArrayList<>();
 
     public Employee(String name, Integer age, String city) {
         this.name = name;

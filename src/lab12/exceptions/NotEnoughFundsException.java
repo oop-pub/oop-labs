@@ -1,11 +1,9 @@
 package lab12.exceptions;
 
 public class NotEnoughFundsException extends Exception {
-	
-	private static final long serialVersionUID = -3034651278778929257L;
-	private int id;
-	private double balance;
-	private double amount;
+	private final int id;
+	private final double balance;
+	private final double amount;
 	
 	public NotEnoughFundsException(int id, double balance, double amount, String message) {
         super(message);

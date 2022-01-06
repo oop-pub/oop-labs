@@ -19,28 +19,9 @@ public class BusinessReport {
         return 0l;
     }
 
-    public static SortedSet<Employee> getEmployeesMaxByReligionMinByGenderSortedByCitySortedByAge(Business business) {
-        // Get the employees with majority by religion, from this group select the subgroup that has the minority by gender
-        // Sort the set by city and, in case of equality, by age
-
-        return null;
-    }
-
-    public static Religion getReligionOfEmployeesWithMostAccounts(Business business) {
-        // Group employees by religion, count the accounts in each group, return the religion with biggest score
-
-        return null;
-    }
-
     public static Map<Religion, Map<Gender, List<Employee>>> getEmployeesOnSameReligionAndGender(Business business) {
         // Map the employees by religion (Map<Religion, List<Employee>>) then map each of the lists by city (Map<String, List<Employee>>)
         // Hint: use Collectors.groupingBy(Function, Collector)
-
-        return null;
-    }
-
-    public static Map<Project, Map<String, List<Employee>>> getEmployeesOnSameProjectAndCity(Business business) {
-        // Map the employees to the business projects (not to their respective projects)
 
         return null;
     }

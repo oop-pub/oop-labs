@@ -55,17 +55,4 @@ public class BankReport {
 
         return null;
     }
-
-    public static Project getProjectWorkedOnByMostCustomers(Bank bank) {
-        // Get all the projects from the employees and find the most repeated one in the list
-
-        return null;
-    }
-
-    public static Gender getGenderWhoWorkedOnMostProjects(Bank bank) {
-        // Get all the pairs <gender, project> or <gender, List<project>>, then reduce the array to only one pair
-        // of each gender and retrieve the one with most counted projects (you are expected to count duplicates as well).
-
-        return null;
-    }
 }

@@ -5,9 +5,8 @@ import lab12.exceptions.ExistsException;
 import java.util.*;
 
 public class Business {
-    
-    private Set<Employee> employees = new HashSet<>();
-    private List<Project> projects = new ArrayList<>();
+    private final Set<Employee> employees = new HashSet<>();
+    private final List<Project> projects = new ArrayList<>();
 
     public void addEmployee(final Employee employee) throws ExistsException {
     	if (employees.contains(employee)) {
