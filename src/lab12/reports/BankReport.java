@@ -38,7 +38,7 @@ public class BankReport {
         return 0.0d;
     }
 
-    public static SortedSet<Employee> getAccountsSortedBySum(Bank bank) {
+    public static SortedSet<Account> getAccountsSortedBySum(Bank bank) {
         // The set of all accounts, ordered by current account balance
 
         return null;
