@@ -1,4 +1,4 @@
-package org.poo.ex1;
+package org.poo.ex1.sol;
 
 import java.util.Scanner;
 
@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Introducei numărul:");
         int n = sc.nextInt();
 
         while (n >= 10) {

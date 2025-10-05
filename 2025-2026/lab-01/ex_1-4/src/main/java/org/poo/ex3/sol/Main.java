@@ -1,4 +1,4 @@
-package org.poo.ex3;
+package org.poo.ex3.sol;
 
 import java.util.Scanner;
 
@@ -6,12 +6,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Cate caractere vrei sa introduci? ");
         int n = scanner.nextInt();
-        scanner.nextLine(); // consumam enterul ramas
+        scanner.nextLine();
 
         char[] chars = new char[n];
-        System.out.println("Introduceti caracterele (cate unul pe rand):");
         for (int i = 0; i < n; i++) {
             chars[i] = scanner.nextLine().charAt(0);
         }
@@ -45,6 +43,3 @@ public class Main {
         System.out.println("Consoane: " + consoane);
     }
 }
-
-
-

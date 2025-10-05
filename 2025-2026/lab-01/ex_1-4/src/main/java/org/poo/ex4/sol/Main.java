@@ -1,4 +1,4 @@
-package org.poo.ex4;
+package org.poo.ex4.sol;
 
 import java.util.Scanner;
 
